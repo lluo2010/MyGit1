@@ -1,4 +1,4 @@
-1. 工作区加入index
+1. workspace加入index
 2. index到历史
 3. 工作区直接到历史
 
