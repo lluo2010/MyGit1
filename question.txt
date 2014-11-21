@@ -1,8 +1,22 @@
-1. workspace加入index
-2. index到历史
-3. 工作区直接到历史
+一. 提交
+1.working dir加入index：
+git add <path> or files 
+如果省略path/files,用"."替代，表示当前目录下全部文件。
+参数：
+	1）没带参数的表示不包含删除的文件
+	2）-u:不包含新增加的文件
+	3）-A包含所有的
+2.index到history
+git commit
+参数：
+1）-m "提交描述"：对提交进行一些注释
+2）-a:将修改的或者删除的文件从working dir 直接提交到history,不包含新增加的，如果新增加的，还是要先执行git add
+3.working dir直接到history
+git commit -a
+只包含修改的和删除的文件，如果是新增加的，没办法达到目的，必须先git add到index再到history.
 
 4. 提交到github
+
 
 
 查看提交的详细历史:git log
