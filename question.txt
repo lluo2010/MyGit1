@@ -20,3 +20,16 @@ git commit -a
 
 
 查看提交的详细历史:git log
+
+
+Data restrictions inactive 
+
+
+
+一. 基础
+1. 创建git库：git init
+创建一个空的Git库,当前目录中产生一个.git 的子目录
+2. 获取帮助：Git help
+format:
+	git help command
+比如git help add查看add命令

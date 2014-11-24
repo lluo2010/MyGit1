@@ -3,3 +3,4 @@
 !luo.a
 #ignore all files and folder in test2
 test2/
+test3/**/*.c
